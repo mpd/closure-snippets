@@ -1,0 +1,10 @@
+snippet meth
+	`GetProvide()`.prototype.${1:method_name} = function(${2:first_argument}) {
+		${3:// body...}
+	};
+
+snippet prov
+	goog.provide('${1:class_name}');
+
+snippet req
+	goog.require('${1:class_name}');
